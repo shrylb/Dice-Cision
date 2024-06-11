@@ -1,0 +1,119 @@
+name: dicedicedice
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.4 <4.0.0"
+
+dependencies:
+  cloud_firestore: ^4.17.3
+  cloud_functions: ^4.7.4
+  firebase_app_installations: ^0.2.5+5
+  firebase_auth: ^4.19.5
+  firebase_core: ^2.31.0
+  firebase_dynamic_links: ^5.5.5
+  firebase_storage: ^11.7.5
+  firebase_ui_auth: ^1.14.0
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.38
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/NewRocker-Regular.ttf
+    - assets/dice_all/d4.png
+    - assets/dice_all/d6.png
+    - assets/dice_all/d8.png
+    - assets/dice_all/d10.png
+    - assets/dice_all/d12.png
+    - assets/dice_all/d20.png
+    - assets/ddd_logo.png
+    - assets/d4.png
+    - assets/d6.png
+    - assets/d8.png
+    - assets/d10.png
+    - assets/d12.png
+    - assets/d20.png
+    - assets/hist_bg.jpg
+    - assets/Dice-cider.png
+    - assets/audios/rolling-dice.mp3
+    - assets/Dice-cider.png
+    - assets/subtitle.png
+    - assets/d20/1d20.png
+    - assets/d20/2d20.png
+    - assets/d20/3d20.png
+    - assets/d20/4d20.png
+    - assets/d20/5d20.png
+    - assets/d20/6d20.png
+    - assets/d20/7d20.png
+    - assets/d20/8d20.png
+    - assets/d20/9d20.png
+    - assets/d20/10d20.png
+    - assets/d20/11d20.png
+    - assets/d20/12d20.png
+    - assets/d20/13d20.png
+    - assets/d20/14d20.png
+    - assets/d20/15d20.png
+    - assets/d20/16d20.png
+    - assets/d20/17d20.png
+    - assets/d20/18d20.png
+    - assets/d20/19d20.png
+    - assets/d20/20d20.png
+    - assets/d12/1d12.png
+    - assets/d12/2d12.png
+    - assets/d12/3d12.png
+    - assets/d12/4d12.png
+    - assets/d12/5d12.png
+    - assets/d12/6d12.png
+    - assets/d12/7d12.png
+    - assets/d12/8d12.png
+    - assets/d12/9d12.png
+    - assets/d12/10d12.png
+    - assets/d12/11d12.png
+    - assets/d12/12d12.png
+    - assets/d10/0d10.png
+    - assets/d10/1d10.png
+    - assets/d10/2d10.png
+    - assets/d10/3d10.png
+    - assets/d10/4d10.png
+    - assets/d10/5d10.png
+    - assets/d10/6d10.png
+    - assets/d10/7d10.png
+    - assets/d10/8d10.png
+    - assets/d10/9d10.png
+    - assets/d8/1d8.png
+    - assets/d8/2d8.png
+    - assets/d8/3d8.png
+    - assets/d8/4d8.png
+    - assets/d8/5d8.png
+    - assets/d8/6d8.png
+    - assets/d8/7d8.png
+    - assets/d8/8d8.png
+    - assets/d6/1d6.png
+    - assets/d6/2d6.png
+    - assets/d6/3d6.png
+    - assets/d6/4d6.png
+    - assets/d6/5d6.png
+    - assets/d6/6d6.png
+    - assets/d4/1d4.png
+    - assets/d4/2d4.png
+    - assets/d4/3d4.png
+    - assets/d4/4d4.png
+
+
+  fonts:
+    - family: NewRocker
+      fonts:
+        - asset: assets/NewRocker-Regular.ttf
+    - family: Brawler
+      fonts:
+        - asset: assets/Brawler-Regular.ttf
